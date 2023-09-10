@@ -1,0 +1,19 @@
+.fg-container1{
+    padding: 2rem 5rem;
+    border-radius: 12px;
+    /* border: solid salmon 1px; */
+    max-width: 60%;
+    background-color: var(--bg-200);
+
+}
+.fg-container1 >h3{
+    background-color: var(--bg-200);
+    color: var(--primary-100);
+}
+.fg-container1>p{
+    background-color: var(--bg-200);
+}
+@media Screen and (max-width:640px){
+    .fg-container1{padding: 0.5rem;}
+}
+

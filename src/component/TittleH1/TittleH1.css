@@ -1,0 +1,12 @@
+h1{align-items: center;
+    
+    /* background-color: bisque; */
+  
+    padding: 2rem 10rem;
+}
+@media Screen and (max-width:640px){
+
+    h1{
+        padding: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.fg-proyect-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    /* padding-top: 25px; */
+    padding-bottom: 5rem;
+}
+
+.fg-proyect>h1{
+    color: var(--primary-100);
+}

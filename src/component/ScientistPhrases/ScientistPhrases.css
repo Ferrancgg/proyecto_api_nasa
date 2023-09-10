@@ -1,0 +1,117 @@
+
+
+.fg-scientist-container{
+    min-height: 55svh;
+   
+    border-radius: 12px;
+    padding: 2rem;
+
+}
+.fg-scientist-container>h2{
+    text-align: center;
+    padding: 3rem;
+}
+.fg-subcontainer-scientist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 8rem
+}
+.fg-scientist-left{
+    /* background-color: rgb(232, 136, 19); */
+    width: 40%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fg-scientist-right{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 8rem;
+    border-radius: 12px;
+    gap: 2rem;
+}
+
+.fg-scientist-img{
+    height: 350px;
+    /* width: 350px; */
+    width: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    background-color: rgb(5, 51, 36);
+    
+}
+.fg-scientist-img>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media Screen and (max-width:640px){
+h2{
+    font-size: 1.5rem;
+    text-align: center;}
+
+.fg-scientist-container{
+    min-height: 60svh;
+    /* background-color: rgb(128, 117, 0); */
+    border-radius: 12px;
+    padding: 1rem;
+    
+
+}
+.fg-subcontainer-scientist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+.fg-scientist-left{
+    /* background-color: rgb(228, 137, 25); */
+    width: 100%;
+    height:50% ;
+    /* height: 25rem; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fg-scientist-right{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem ;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.fg-scientist-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    object-fit: cover;
+    /* background-color: aquamarine; */
+    
+}
+.fg-scientist-img>img{
+    height: 100%;
+    width: 100%;
+}}

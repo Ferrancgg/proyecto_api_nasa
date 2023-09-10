@@ -1,0 +1,25 @@
+.fg-buscador{
+    height: 30svh;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.fg-buscador>input{
+    width: 60%;
+    height: 40px;
+    border-radius: 12px;
+}
+.fg-buscador>div{
+    display: flex;
+    gap: 2rem;
+   
+}
+.fg-buscador>div>button{
+    height: 40px;
+    width: 100px;
+    border-radius: 12px;
+}

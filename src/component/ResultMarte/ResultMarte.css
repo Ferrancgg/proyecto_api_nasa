@@ -1,0 +1,10 @@
+ .fg-result-marte{
+    /* background-color: rgb(255, 127, 142); */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+
+} 

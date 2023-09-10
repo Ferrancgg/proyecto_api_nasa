@@ -1,0 +1,141 @@
+
+
+/* contenedor */
+
+
+.fg-subcontainer-result{
+    /* background-color: rgb(7, 59, 59); */
+    display: flex;
+   
+    min-height: 100svh;
+   
+}
+.fg-buscador-container{
+    /* background-color: rgb(217, 255, 127); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20%;
+   
+    gap: 3rem;
+
+}
+.fg-buscador{
+  /* border: 2px solid red; */
+  width: 90%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+  /* background-color: var(--bg-200); */
+
+ 
+}
+.fg-buscador>input{
+    
+    height: 2rem;
+    width: 15rem;
+    border-radius: 12px;
+    background-color: var(--bg-300);
+    font-weight: 700;
+
+
+}
+.fg-buscador-btt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* background-color: var(--bg-200); */
+    
+
+}
+.fg-buscador-btt>button{
+    height:2rem;
+    width: 5rem;
+    border-radius: 12px;background-color: var(--bg-300);
+    font-weight: 700;
+}
+.fg-planet{
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right,var(--bg-200), var(--bg-100));
+
+}
+.fg-planet-img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    
+}
+.fg-planet-img>img{
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(to right,var(--bg-200), var(--bg-100));;
+}
+
+/* /////// */
+
+.fg-result{
+    /* background-color: rgb(124, 81, 51); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding-bottom: 5rem;
+
+
+}
+
+.fg-api-img{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+
+
+}
+.fg-api-img>img{
+    height: 100%;
+    width: 100%;
+
+}
+
+@media Screen and (max-width:640px){
+    .fg-subcontainer-result{
+        flex-direction: column;
+        min-height: 100svh;
+        justify-content: space-around;
+       
+    }
+    .fg-buscador-container{
+        width: 100%;
+        gap: 1rem;
+
+
+    }
+    .fg-planet{display: none;}
+
+
+    /* /////// */
+
+    .fg-api-img{
+        height: 330px;
+        width: 330px;
+        object-fit: cover;
+    
+    
+    }
+    .fg-result{
+        padding: 1.5rem;
+    }
+    
+}
