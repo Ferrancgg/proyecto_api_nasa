@@ -27,21 +27,3 @@ footer{
   width: 100%;
 }
 
-/* footer>.fg-link-container>a>.fg-enlaces{
-  height: 50px;
-  width: 50px;
-  object-fit: cover;
-}
-footer>.fg-link-container>.fg-enlaces>img{
-  height: 100%;
-  width: 100%;
-} */
-@media Screen and (max-width:640px){
-  footer{ 
-    
-    background-color:rgb(195, 255, 0) ;
-    
- 
-  
-  }
-}
