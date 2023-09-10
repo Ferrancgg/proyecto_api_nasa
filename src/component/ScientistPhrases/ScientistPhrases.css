@@ -43,8 +43,8 @@
 
 .fg-scientist-img{
     height: 350px;
-    /* width: 350px; */
-    width: auto;
+    width: 300px;
+    /* width: auto; */
     border-radius: 12px;
     object-fit: cover;
     background-color: rgb(5, 51, 36);
